@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="149130" started-at="2021-06-14T00:40:25 IST" finished-at="2021-06-14T00:42:54 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@2df32bf7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="149130" started-at="2021-06-14T00:40:25 IST" finished-at="2021-06-14T00:42:54 IST">
+      <class name="TestRunner.TestRunner">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestRunner.TestRunner@2df32bf7]" name="init" is-config="true" duration-ms="9" started-at="2021-06-14T00:40:25 IST" finished-at="2021-06-14T00:40:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@2df32bf7]" name="setUpClass" is-config="true" duration-ms="308" started-at="2021-06-14T00:40:25 IST" finished-at="2021-06-14T00:40:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@2df32bf7]" name="runScenario" duration-ms="51701" started-at="2021-06-14T00:40:25 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-14T00:41:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["In order to check One way Trip or Round Trip"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automate Flight Booking through MakeMyTrip]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0] but found [1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at StepDefinitions.MakeMyTripStepDefinition.validating_of(MakeMyTripStepDefinition.java:256)
+at ✽.Validating "10-7-2021", returndate of "oneway"(file:///C:/Users/USER/Downloads/hrcassignment4/src/test/java/Features/MakeMyTrip.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@2df32bf7]" name="runScenario" duration-ms="97073" started-at="2021-06-14T00:41:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-14T00:42:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["In order to check One way Trip or Round Trip"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automate Flight Booking through MakeMyTrip]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@2df32bf7]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2021-06-14T00:42:54 IST" finished-at="2021-06-14T00:42:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="Mail()[pri:0, instance:TestRunner.TestRunner@2df32bf7]" name="Mail" is-config="true" duration-ms="2364" started-at="2021-06-14T00:42:54 IST" finished-at="2021-06-14T00:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mail -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
